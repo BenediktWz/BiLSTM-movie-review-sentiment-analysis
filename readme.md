@@ -7,6 +7,7 @@ The task was to build neural network-based models to predict the sentiment of th
 - 2: Neutral
 - 3: Somewhat Positive
 - 4: Positive
+
 This task is based on a Kaggle competition [https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews].
 Our final model was a bidirectional LSTM neural network with BERT embeddings. The GloVe emebddings resulted in a very similar accuracy as the BERT embeddings. We used the pytorch library to build the BiLSTM model and the transformers library for the BERT embeddings.
 
