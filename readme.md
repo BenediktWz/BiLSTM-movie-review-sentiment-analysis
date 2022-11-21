@@ -2,11 +2,11 @@ Project Sentiment Analysis - Classification of Movie Reviews
 
 ## Description:
 The task was to build neural network-based models to predict the sentiment of the reviews from Roten Tomatoes’s [https://www.rottentomatoes.com/]. The target variable consists of the five sentiment categories:
-• 0: Negative
-• 1: Somewhat Negative
-• 2: Neutral
-• 3: Somewhat Positive
-• 4: Positive
+- 0: Negative
+- 1: Somewhat Negative
+- 2: Neutral
+- 3: Somewhat Positive
+- 4: Positive
 This task is based on a Kaggle competition [https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews].
 Our final model was a bidirectional LSTM neural network with BERT embeddings. The GloVe emebddings resulted in a very similar accuracy as the BERT embeddings. We used the pytorch library to build the BiLSTM model and the transformers library for the BERT embeddings.
 
