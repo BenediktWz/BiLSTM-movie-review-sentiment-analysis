@@ -1,4 +1,4 @@
-Project Sentiment Analysis - Classification of Movie Reviews
+# Project Sentiment Analysis - Classification of Movie Reviews
 
 ## Description:
 The task was to build neural network-based models to predict the sentiment of the reviews from Roten Tomatoes’s [https://www.rottentomatoes.com/]. The target variable consists of the five sentiment categories:
